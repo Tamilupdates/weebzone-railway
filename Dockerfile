@@ -1,3 +1,3 @@
-FROM nanthakps/kpsml
+FROM nanthakps/wz:railway
 COPY . .
 CMD ["bash", "start.sh"]
